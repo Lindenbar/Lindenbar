@@ -2,202 +2,109 @@
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
-            #timer {
-    font-size: 5em;
-    display: flex;
-    height: 1em;
-    overflow: hidden;
-}
+                #timer {
+                    font-size: 5em;
+                    display: flex;
+                    height: 1em;
+                    overflow: hidden;
+                }
 
-.hours {
-    display: flex;
-}
+                .hours {
+                    display: flex;
+                }
 
-.hours div:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-    animation: 108000s hours infinite step-end;
-}
+                .hours div:nth-child(1) {
+                    display: flex;
+                    flex-direction: column;
+                    animation: 108000s hours infinite step-end;
+                }
 
-.hours div:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-    animation: 36000s miliseconds infinite step-end;
-}
+                .hours div:nth-child(2) {
+                    display: flex;
+                    flex-direction: column;
+                    animation: 36000s miliseconds infinite step-end;
+                }
 
-.minutes {
-    display: flex;
-}
+                .minutes {
+                    display: flex;
+                }
 
-.minutes div:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-    animation: 3600s seconds infinite step-end;
-}
+                .minutes div:nth-child(1) {
+                    display: flex;
+                    flex-direction: column;
+                    animation: 3600s seconds infinite step-end;
+                }
 
-.minutes div:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-    animation: 600s miliseconds infinite step-end;
-}
+                .minutes div:nth-child(2) {
+                    display: flex;
+                    flex-direction: column;
+                    animation: 600s miliseconds infinite step-end;
+                }
 
-.seconds {
-    display: flex;
-}
+                .seconds {
+                    display: flex;
+                }
 
-.seconds div:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-    animation: 60s seconds infinite step-end;
-}
+                .seconds div:nth-child(1) {
+                    display: flex;
+                    flex-direction: column;
+                    animation: 60s seconds infinite step-end;
+                }
 
-.seconds div:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-    animation: 10s miliseconds infinite step-end;
-}
+                .seconds div:nth-child(2) {
+                    display: flex;
+                    flex-direction: column;
+                    animation: 10s miliseconds infinite step-end;
+                }
 
-.miliseconds {
-    display: flex;
-}
+                .miliseconds {
+                    display: flex;
+                }
 
-.miliseconds div:nth-child(1) {
-    display: flex;
-    flex-direction: column;
-    animation: 1s miliseconds infinite step-end;
-}
+                .miliseconds div:nth-child(1) {
+                    display: flex;
+                    flex-direction: column;
+                    animation: 1s miliseconds infinite step-end;
+                }
 
-.miliseconds div:nth-child(2) {
-    display: flex;
-    flex-direction: column;
-    animation: 0.1s miliseconds infinite step-end;
-}
+                .miliseconds div:nth-child(2) {
+                    display: flex;
+                    flex-direction: column;
+                    animation: 0.1s miliseconds infinite step-end;
+                }
 
-span {
-    height: 1em;
-}
+                span {
+                    height: 1em;
+                }
 
-@keyframes hours {
-    0% {transform: translateY(0em);}
-    33.34% {transform: translateY(-1em);}
-    66.67% {transform: translateY(-2em);}
-}
+                @keyframes hours {
+                    0% {transform: translateY(0em);}
+                    33.34% {transform: translateY(-1em);}
+                    66.67% {transform: translateY(-2em);}
+                }
 
-@keyframes seconds {
-    0% {transform: translateY(0em);}
-    16.67% {transform: translateY(-1em);}
-    33.34% {transform: translateY(-2em);}
-    50.01% {transform: translateY(-3em);}
-    66.68% {transform: translateY(-4em);}
-    83.35% {transform: translateY(-5em);}
-}
+                @keyframes seconds {
+                    0% {transform: translateY(0em);}
+                    16.67% {transform: translateY(-1em);}
+                    33.34% {transform: translateY(-2em);}
+                    50.01% {transform: translateY(-3em);}
+                    66.68% {transform: translateY(-4em);}
+                    83.35% {transform: translateY(-5em);}
+                }
 
-@keyframes miliseconds {
-    0% {transform: translateY(0);}
-    10% {transform: translateY(-1em);}
-    20% {transform: translateY(-2em);}
-    30% {transform: translateY(-3em);}
-    40% {transform: translateY(-4em);}
-    50% {transform: translateY(-5em);}
-    60% {transform: translateY(-6em);}
-    70% {transform: translateY(-7em);}
-    80% {transform: translateY(-8em);}
-    90% {transform: translateY(-9em);}
-}
-            <div id="timer">
-    <div class="hours">
-        <div>
-            <span>0</span>
-            <span>1</span>
-            <span>2</span>
-        </div>
-        <div>
-            <span>0</span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-            <span>6</span>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-        </div>
-    </div>
-    <div>:</div>
-    <div class="minutes">
-        <div>
-            <span>0</span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-        </div>
-        <div>
-            <span>0</span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-            <span>6</span>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-        </div>
-    </div>
-    <div>:</div>
-    <div class="seconds">
-        <div>
-            <span>0</span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-        </div>
-        <div>
-            <span>0</span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-            <span>6</span>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-        </div>
-    </div>
-    <div>:</div>
-    <div class="miliseconds">
-        <div>
-            <span>0</span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-            <span>6</span>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-        </div>
-        <div>
-            <span>0</span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>4</span>
-            <span>5</span>
-            <span>6</span>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-        </div>
-    </div>
-</div>
+                @keyframes miliseconds {
+                    0% {transform: translateY(0);}
+                    10% {transform: translateY(-1em);}
+                    20% {transform: translateY(-2em);}
+                    30% {transform: translateY(-3em);}
+                    40% {transform: translateY(-4em);}
+                    50% {transform: translateY(-5em);}
+                    60% {transform: translateY(-6em);}
+                    70% {transform: translateY(-7em);}
+                    80% {transform: translateY(-8em);}
+                    90% {transform: translateY(-9em);}
+                }
+            </style>
         </div>
     </foreignObject>
 </svg>
