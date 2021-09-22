@@ -1,6 +1,6 @@
 ### Hi there 👋
 <div align="center">
-    <img src="example.svg" width="40vw" height="40vw" alt="css-in-readme">
+    <img src="example.svg" width="400" height="250" alt="css-in-readme">
 </div>
 <!--
 **Lindenbar/Lindenbar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
